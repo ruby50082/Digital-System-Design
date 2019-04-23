@@ -41,7 +41,7 @@
   (a) Design a 2-to-4 line decoder which has two data inputs, one control input, and four outputs. 
     The data inputs are a 2-bit variable A, the control input is a 1-bit variable enable, the outputs is a 4-bit variable Dout. 
     The enable line and the outputs are all active-HIGH. The truth table of this line decoder is given below:
-    - !image[https://github.com/ruby50082/Digital-System-Design/blob/master/Lab2/Lab2.png]
+    - ![image](https://github.com/ruby50082/Digital-System-Design/blob/master/Lab2/Lab2.png)
     (1) Write the Verilog circuit module of this line decoder. 
         The circuit module and port list should be named as Lab2_decoder_2x4 (output [3:0] Dout, input [1:0] A, input enable), 
         and its file should be named as Lab2_decoder_2x4.v .
