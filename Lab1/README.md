@@ -9,7 +9,7 @@
   - The logic diagram of a combinational circuit is shown in the following figure. 
     Please write the Verilog module in different way without considering the propagation delay.
     The order of the port list of this Verilog module must be F,A,B,C.
-  - ![image](https://github.com/ruby50082/Digital-System-Design/blob/master/Lab1/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202019-04-23%20%E4%B8%8A%E5%8D%889.33.15.png)
+  - ![image](https://github.com/ruby50082/Digital-System-Design/upload)
     - Please write the Verilog circuit module in gate-level modeling and its testbench. 
       The circuit module should be named as Lab1_gatelevel, and its file should be named as Lab1_gatelevel.v; 
       and the testbench should be named as t_Lab1_gatelevel, and its file should be named as t_Lab1_gatelevel.v. 
