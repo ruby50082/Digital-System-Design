@@ -1,28 +1,28 @@
 # Lab3
 1. The circuit diagram of a 𝑆 𝑅 -Latch is shown in the following figure. 
    Please write the Verilog circuit module for it.
-   -![image1]()
+   -![image1](https://github.com/ruby50082/Digital-System-Design/blob/master/Lab3/Lab3-1.png)
    (1) According to the logic diagram shown in Figure 1, please write the Verilog circuit module in gate-level modeling. Assume that the delay of an NAND gate is 2ns.
        The circuit module and port list should be named as Lab3_SbRb_Latch_gatelevel(output Q, NQ, input Sb, Rb), and its file should be named as Lab3_SbRb_Latch_gatelevel.v.
    (2) Please write the testbench of the 𝑆 𝑅-Latch in which six test data shown in the following table must be included. 
        The testbench module should be named as t_Lab3_SbRb_Latch_gatelevel, and its file should be named as t_Lab3_SbRb_Latch_gatelevel.v.
-       -![image2]()
+       -![image2](https://github.com/ruby50082/Digital-System-Design/blob/master/Lab3/Lab3-2.png)
 
 2. The circuit diagram of a positive-edge triggered D-Flip-Flop is shown in the following figure. 
    Please design the Verilog circuit module for it.
-   ![image3]()
+   ![image3](https://github.com/ruby50082/Digital-System-Design/blob/master/Lab3/Lab3-3.png)
    (1) According to the logic diagram shown in Figure 2, please write the Verilog circuit module in gate-level modeling by using the module in A(i). 
        Assume that the delay of an NAND gate is 2ns. The circuit module and port list should be named as Lab3_Pos_Edge_D_FF_gatelevel(output Q, NQ, input D, clock), 
        and its file should be named as Lab3_Pos_Edge_D_FF_gatelevel.v.
    (2) Please write the testbench of the D-flip-flop in which five test data shown in the following table must be included. 
        The period of the clock is 20 ns, LOW for 10 ns and then HIGH for 10 ns. 
        The testbench should be named as t_Lab3_Pos_Edge_D_FF_gatelevel, and its file should be named as t_Lab3_Pos_Edge_D_FF_gatelevel.v.
-       ![image4]()
+       ![image4](https://github.com/ruby50082/Digital-System-Design/blob/master/Lab3/Lab3-4.png)
 
 3. Mealy-Type serial adder
   - Design a Mealy-type serial adder which can calculate the sum of two input strings.
     The state diagram and circuit diagram of this synchronous sequential circuit are shown in Figure 3.
-  - ![image5]()
+  - ![image5](https://github.com/ruby50082/Digital-System-Design/blob/master/Lab3/Lab3-5.png)
   (1) According to the state diagram shown in Figure 3(a), write the Verilog circuit module for this synchronous sequential circuit by state-diagram-based model. 
       Assume that this circuit can be reset to its initial state S0 (0) by input signal reset. 
       The circuit module and port list should be named as Lab3_Mealy_SerialAdder_state_diagram(output s, input x, y, clock, reset), and its file should be named as Lab3_Mealy_SerialAdder_state_diagram.v.
