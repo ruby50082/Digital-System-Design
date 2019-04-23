@@ -1,2 +1,3 @@
 # Digital-System-Design
-verilog
+
+verilog on ModelSim
